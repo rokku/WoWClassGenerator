@@ -100,6 +100,19 @@ button:hover {
   transition: background .2s,color .2s;
 }
 
-.Alliance {
-  color: rgb(0, 33, 172);
+.footerContainer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: .7rem;
+  font-family: sans-serif;
+  padding: 1rem;
+}
+
+.footerContainer a {
+  color: white;
+  padding-left: .2rem;
 }
