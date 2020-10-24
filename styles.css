@@ -82,14 +82,14 @@ body {
 }
 
 .outputHorde {
-  background-image: url(images/horde_logo_color.png);
+  background-image: url(horde_logo_color.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
 .outputAlliance {
-  background-image: url(images/alliance_logo_color.png);
+  background-image: url(alliance_logo_color.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
