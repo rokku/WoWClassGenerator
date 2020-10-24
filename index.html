@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>WoW Class Generator</title>
+  <link type="text/css" rel="stylesheet" href="styles.css">
+  <link type="text/css" rel="stylesheet" href="fonts\stylesheet.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="imgContainer">
+      <img class="wowLogo" src="image.png">
+    </div>
+    <div class="titleContainer">
+      <h1 class="title">World of Warcraft <br>Random Character Selector.</h1><br><br>
+      <h4 class="subTitle">Select your faction, then press submit to generate your random Character.</h4>
+    </div>
+    <div>
+
+      <div class="buttonContainer">
+        <select class="factionSelect" id="Faction">
+          <option class="random" value="Random">Random</option>
+          <option class="alliance" value="Alliance">Alliance</option>
+          <option class="horde" value="Horde">Horde</option>
+        </select>
+        <button id="Submit">Submit</button>
+      </div>
+    </div>
+
+    <div class="outputContainer">
+      <p id="Output"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "LifeCraft", sans-serif;
+  background-image: url("https://assets.worldofwarcraft.com/static/components/Pane/Pane-dirtDark.ea235926d6487091ac2d6786fd7d2615.jpg")
+}
+
+.imgContainer {
+  display: flex;
+  margin-top: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleContainer {
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 4px 4px 8px black;
+}
+
+.subTitle {
+  font-size: 2rem;
+  color: white;
+}
+
+.buttonContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.factionSelect {
+  height: 50px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  display: flex;
+  width: 200px;
+  background-color: black;
+  color: white;
+  font-family: "LifeCraft";
+  border: 1px solid black;
+}
+
+
+.alliance {
+  color: #014D95;
+}
+
+.horde {
+  color: #8C1616;
+}
+
+.outputContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  color: white;
+  margin-top: 2rem;
+}
+
+button {
+  margin: 0 1rem;
+  font-size: 1.08rem;
+  line-height: 1.5;
+  font-weight: 400;
+  background: rgba(159, 22, 0, 0.5);
+  border: 1px solid #000;
+  color: #f7b10a;
+  min-width: 180px;
+  text-transform: uppercase;
+  -webkit-transition: background .2s,color .2s;
+  transition: background .2s,color .2s;
+}
+
+button:hover {
+  font-size: 1.08rem;
+  line-height: 1.5;
+  font-weight: 400;
+  background: rgba(159, 22, 0, 1);
+  border: 1px solid #000;
+  color: #f7b10a;
+  min-width: 180px;
+  text-transform: uppercase;
+  -webkit-transition: background .2s,color .2s;
+  transition: background .2s,color .2s;
+}
+
+.Alliance {
+  color: rgb(0, 33, 172);
+}
