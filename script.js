@@ -80,10 +80,10 @@ $(document).ready(function() {
         $("#Output").html(c.faction + " <br> " + c.sex + " <br> " + c.race + " <br> " + c.spec + " " + c.class);
 
         if ($(".output:contains('Horde')").removeClass("outputAlliance").addClass("outputHorde")) {
-          console.log("For The Horde");
+          // console.log("For The Horde");
         }
         if ($(".output:contains('Alliance')").removeClass("outputHorde").addClass("outputAlliance"));
-        console.log("For The Alliance");
+          // console.log("For The Alliance");
       };
     }
 
