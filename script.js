@@ -43,7 +43,7 @@ $(document).ready(function() {
           "Monk": ["Brewmaster", "Mistweaver", "Windwalker"],
           "Paladin": ["Holy", "Protection", "Retribution"],
           "Priest": ["Discipline", "Holy", "Shadow"],
-          "Rogue": ["Assassination", "Combat", "Subtlety"],
+          "Rogue": ["Assassination", "Outlaw", "Subtlety"],
           "Shaman": ["Elemental", "Enhancement", "Restoration"],
           "Warlock": ["Affliction", "Demonology", "Destruction"],
           "Warrior": ["Arms", "Fury", "Protection"]
