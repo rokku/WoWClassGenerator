@@ -86,9 +86,8 @@ $(document).ready(function() {
           // console.log("For The Alliance");
       };
     }
-
-
   )();
+  
   // DROP DOWN COLOR CHANGE DEPENDING ON FACTION
   $(document).ready(function() {
     $("#Faction").change(function() {
