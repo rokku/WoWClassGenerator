@@ -7,8 +7,8 @@ $(document).ready(function() {
       var character = {
         faction: ["Alliance", "Horde"],
         race: {
-          "Alliance": ["Dwarf", "Gnome", "Human", "Night Elf", "Dranei", "Worgen", "Pandaren", "Void Elf", "Lightforged Draenei", "Dark Iron Dwarf", "Kul Tiran", "Mechagnome"],
-          "Horde": ["Orc", "Troll", "Tauren", "Undead", "Blood Elf", "Goblin", "Pandaren", "Nightborne", "Highmountain Tauren", "Mag'har Orc", "Zandalari Troll", "Vulpera"]
+          "Alliance": ["Dwarf", "Gnome", "Human", "Night Elf", "Dranei", "Worgen", "Pandaren", "Void Elf", "Lightforged Draenei", "Dark Iron Dwarf", "Kul Tiran", "Mechagnome", "Demon Hunter"],
+          "Horde": ["Orc", "Troll", "Tauren", "Undead", "Blood Elf", "Goblin", "Pandaren", "Nightborne", "Highmountain Tauren", "Mag'har Orc", "Zandalari Troll", "Vulpera", "Demon Hunter"]
         },
         class: {
           "Dranei": ["Death Knight", "Hunter", "Mage", "Paladin", "Priest", "Shaman", "Warrior", "Monk"],
