@@ -7,4 +7,5 @@ WORK IN PROGRESS - WoW Class Generator
 - 25/11/20 - Added Demon Hunter Race & Classes
 - 24/10/20 - All current classes, races, specialistations added. Maybe covenants next, pre-shadowlands? Kappa.
 
-<a href="https://premiare.github.io/WoWClassGenerator/">Live Website</a>
+<a href="https://rokku.github.io/WoWClassGenerator/">Live Website</a>
+...
